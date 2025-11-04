@@ -1,39 +1,159 @@
-main{
-    background-color: #fffefe;
-    font-family: 'Open Sans';
+/* Обнуление и общие настройки */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    color: #333333;
-    font-size: 36px;
-    font-weight: 700;
+* {
+  box-sizing: border-box;
 }
 
-p{
+/* Тело страницы */
+body {
+  background: #F39494;
+  margin: 20px 0 0 0;
+}
+
+/* Основной контейнер */
+main {
+  background-color: #fffefe;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 582px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Заголовок */
+h1 {
+  color: #333333;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  padding: 72px 106px 0 92px;
+}
+
+/* Обычный текст */
+p {
+  color: #666666;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+/* Ссылки */
+a {
+  color: #089fe0;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+/* Общие настройки форм */
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 91px;
+  padding-left: 93px;
+  padding-right: 95px;
+  gap: 22px;
+}
+
+/* Поля ввода */
+input {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  padding: 9px 11px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-style: italic;
+  color: #999999;
+  padding-left: 11px;
+  font-weight: 400;
+}
+
+/* Специфичные стили для поля "Компания" */
+.company input {
+  background-color: #ffffff;
+  border: 1px solid #f5f5f5;
+}
+
+.company input::placeholder {
+  font-style: normal;
+  color: #333333;
+}
+
+/* Контейнер для имени (flex) */
+.name {
+  display: flex;
+  column-gap: 2px;
+}
+
+/* Кнопки */
+button {
+  background-color: #089fe0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;
+  height: 44px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Чекбоксы и связанные с ними лейблы */
+label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.checkbox {
+    display: flex;
+    align-items: ;
+}
+
+.checkbox input {
+    margin: -12px 10px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    border: none;
+}
+
+.checkbox p{
+    font-size: 14px;
     color: #666666;
-    font-weight: 400;
-    font-size: 16px;
 }
 
-a{
+.checkbox a {
+    font-size: 14px;
     color: #089fe0;
-    font-size: 18px;
-    font-weight: 400;
 }
 
-label{
-    color: #999999;
-    font-size: 16px;
-    font-weight: 400;
-}
 
-input{
-    background-color: #f5f5f5;
-}
 
-button{
-    background-color: #089fe0;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 400;
-}
+
