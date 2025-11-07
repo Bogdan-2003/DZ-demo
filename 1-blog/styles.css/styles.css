@@ -7,6 +7,7 @@ body{
 
 nav{
     margin: 71px 180px 69px 180px;
+    
 }
 
 header img{
@@ -67,10 +68,19 @@ h1{
     font-size: 24px;
     line-height: 38px;
     margin: 30px 457px 30px 458px;
+    text-align: center;
 }
 
 .user-card {
-   margin: 30px 586px 28px 640px;
+    margin: 30px 586px 28px 640px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.content {
+
 }
 
 .name{
@@ -78,6 +88,7 @@ h1{
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    margin: 0;
 }
 
 .paragraph{
@@ -85,6 +96,8 @@ h1{
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
+    margin: 0;
+    margin-right: 52px;
 }
 
 article img {
