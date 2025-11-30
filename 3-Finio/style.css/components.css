@@ -1,0 +1,62 @@
+.card {
+    padding: 48px 40px 48px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-white-rgb);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.card:hover {
+    background-color: var(--color-register);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+.card__bottom {
+    /* padding: 63px 40px 48px 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card__info {
+    border-bottom: 1px solid var(--color-gray-blue-8);
+    padding: 16px 0;
+}
+
+.card__trial-link .card__info:last-child {
+    border-bottom: none;
+}
+
+.card__trial-link {
+    display: flex;
+    background-color: var(--color-register);
+    color: var(--color-white);
+    width: 289px;
+    height: 48px;
+    line-height: 140%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 47px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: var(--color-white-16);
+    margin: 0 auto;
+    
+}
+
+.card__benefit {
+    display: inline-block;
+    padding: 4px 16px;
+    background-color: var(--color-light-green);
+    color: var(--color-white);
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 140%;
+    font-weight: 400;
+} 
