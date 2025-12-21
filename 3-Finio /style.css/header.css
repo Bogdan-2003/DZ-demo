@@ -1,0 +1,44 @@
+.header {
+    background: var(--color-register);
+    padding: 25px;
+    margin: 0 auto;
+    padding-bottom: 98px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1387px;
+    margin: 0 auto;
+}
+.header__nav-list {
+    display: flex;
+    gap: 32px;
+}
+
+.header__nav-item {
+    list-style: none;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 500;
+    color: var(--color-white-80);
+}
+
+.header__nav-link:hover {
+    color: var(--color-white);
+}
+
+
+
+.header__account {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 140%;
+    color: var(--color-register);
+}
