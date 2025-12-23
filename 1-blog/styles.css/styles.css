@@ -1,0 +1,133 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #374151, #111827);
+    margin: 0;
+    max-width: 1440px;
+}
+
+nav{
+    margin: 71px 180px 69px 180px;
+    
+}
+
+header img{
+    background-color: rgba(75, 85, 99, 1);
+    margin: 0 6px 0 0;
+}
+
+header a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.a1 {
+    margin-right: 77px;
+}
+
+.a2 {
+    margin-right: 52px;
+}
+
+.a3 {
+    margin-right: 39px;
+}
+
+.a4 {
+    margin-right: 346px;
+}
+
+input{
+    border: none;
+    background-color: #1F293799;
+    border-radius: 100px;
+    width: 175px;
+    height: 40px;
+    padding-left: 49px;
+    
+}
+
+input::placeholder{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.heroOne{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 80px 630px 14px 630px;
+    
+}
+
+h1{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 30px 457px 30px 458px;
+    text-align: center;
+}
+
+.user-card {
+    margin: 30px 586px 28px 640px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.content {
+
+}
+
+.name{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.paragraph{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0;
+    margin-right: 52px;
+}
+
+article img {
+    margin: 28px 272px 69px 272px;
+}
+
+.text{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 69px 365px 30px 365px;
+}
+
+.bottomText1{
+    margin-bottom: 103px;
+}
+
+.bottomText{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 366px 30px 366px;
+}
+
+footer p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 103px 606px 77px 608px;
+}
